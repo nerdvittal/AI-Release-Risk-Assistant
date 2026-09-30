@@ -1,0 +1,37 @@
+{
+  "dataset_name": "release_risk_retrieval",
+  "version": "1.0",
+  "cases": [
+    {
+      "question": "What security risks are present in Release 530?",
+      "expected_chunks": [
+        ["530", "chunk_2"]
+      ]
+    },
+    {
+      "question": "What did Security recommend for Release 530?",
+      "expected_chunks": [
+        ["530", "chunk_2"]
+      ]
+    },
+    {
+      "question": "Who approved the deployment in Release 530?",
+      "expected_chunks": [
+        ["530", "chunk_2"]
+      ]
+    },
+    {
+      "question": "Have previous releases had authentication vulnerabilities?",
+      "expected_chunks": [
+        ["527", "chunk_3"],
+        ["530", "chunk_2"]
+      ]
+    },
+    {
+      "question": "What happened to customers after Release 527?",
+      "expected_chunks": [
+        ["527", "chunk_2"]
+      ]
+    }
+  ]
+}

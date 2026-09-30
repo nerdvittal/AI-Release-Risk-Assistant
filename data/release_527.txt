@@ -1,0 +1,17 @@
+Release 527 Production Report
+
+Release 527 was deployed on August 25.
+
+The deployment completed successfully.
+
+Two hours after deployment, 2,300 customers experienced payment failures.
+
+The root cause was connection pool exhaustion.
+
+A temporary workaround was available.
+
+The issue was resolved after restarting the payment service.
+
+The release also contained a critical authentication vulnerability.
+
+Security recommended blocking deployment.
